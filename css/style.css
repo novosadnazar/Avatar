@@ -8,3 +8,200 @@
   --avatar-color: #94CFFF;
   --color-site: #0A3853;
 }
+
+*,
+  *::after,
+  *::before {
+  box-sizing: border-box;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  
+  h1, h2, h3, p {
+      margin: 0;
+      padding: 0;
+  }
+  
+  img {
+      display: block;
+  }
+  
+  .container {
+    width: 1056px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto;
+    outline: solid 1px red;
+  }
+  
+  .header {
+    background-image: url(../images/bacgraund-header.jpg);
+  }
+
+  .header-link {
+    width: 186px;
+    height: 72px;
+    background: url(../images/avatar-logo.png);
+  }
+
+  .nav-link {
+color: var(--background);
+text-align: center;
+font-family: "Inter";
+font-size: 20px;
+font-weight: 300;
+line-height: 0.83;
+  }
+
+  .nav-link:hover, .nav-link:focus {
+    color: var(--avatar-color);
+  }
+
+  .hero-text {
+    color: var(--background);
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 0.83;
+  }
+
+
+  .hero-btn {
+   border-radius: 45px 0px;
+border: 3px solid var(--accent-color);
+background: var(--minor-accent);
+color: var(--accent-color);
+text-align: center;
+font-family: "HeadlandOne";
+font-size: 24px;
+font-weight: 400;
+line-height: 1;
+  }
+
+  .hero-btn::before {
+    content: "";
+    background-image: url(../images/trailer.jpg);
+  }
+
+  .jake-decs {
+    color: var(--color-site);
+text-align: justify;
+font-family: "Inter";
+font-size: 36px;
+font-weight: 400;
+line-height: 0.81;
+  }
+
+  .jake-text {
+color: var(--text-color2);
+text-align: center;
+font-family: "Inter";
+font-size: 24px;
+font-weight: 400;
+line-height: 0.82;
+  }
+
+  .trailer-btn {
+    border-radius: 45px 0px;
+border: 3px solid var(--accent-color);
+background: var(--minor-accent);
+color: var(--accent-color);
+text-align: justify;
+font-family: "HeadlandOne";
+font-size: 24px;
+font-weight: 400;
+line-height: 0.80;
+  }
+
+  .read-text {
+    color: var(--text-color);
+text-align: justify;
+font-family: "Inter";
+font-size: 36px;
+font-weight: 400;
+line-height: 0.81;
+  }
+
+  .read-desc {
+    color: var(--text-color2);
+text-align: justify;
+font-family: "Inter";
+font-size: 24px;
+font-weight: 400;
+line-height: 0.81;
+  }
+
+  .learn-title {
+    color: var(--text-color);
+    text-align: justify;
+    font-family: "HeadlandOne";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 0.80;
+  }
+
+  .learn-desc {
+    color: var(--text-color);
+    text-align: center;
+    font-family: "HeadlandOne";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  .neytiri-text {
+    color: var(--text-color);
+text-align: justify;
+font-family: "Inter";
+font-size: 36px;
+font-weight: 400;
+line-height: 0.81;
+  }
+
+  .neytiri-desc {
+    color: var(--text-color2);
+text-align: justify;
+font-family: "Inter";
+font-size: 24px;
+font-weight: 400;
+line-height: 0.82;
+  }
+
+  .footer-logo {
+    width: 183px;
+height: 70px;
+  }
+
+
+  .footer-link {
+    color: var(--background);
+text-align: justify;
+font-family: "Inter";
+font-size: 20px;
+font-weight: 400;
+line-height: 0.81;
+  }
+
+.line {
+  width: 2px;
+  height: 153px;
+  background: var(--background);
+}
+
+  .footer-desc {
+    color: var(--background);
+    text-align: justify;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
