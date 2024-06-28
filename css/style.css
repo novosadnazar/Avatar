@@ -43,13 +43,15 @@
   }
   
   .header {
-    background-image: url(../images/bacgraund-header.jpg);
+   background-image: url(../images/Rectangle.png);
+   background-size: cover;
+   background-repeat: no-repeat;
   }
 
   .header-link {
     width: 186px;
     height: 72px;
-    background: url(../images/avatar-logo.png);
+    background-image: url(../images/avatar-logo.png);
   }
 
   .nav-link {
