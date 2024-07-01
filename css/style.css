@@ -39,13 +39,14 @@
     padding-left: 12px;
     padding-right: 12px;
     margin: 0 auto;
-    outline: solid 1px red;
   }
   
   .header {
-   background-image: url(../images/Rectangle.png);
-   background-size: cover;
+background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/header-fon.png);
    background-repeat: no-repeat;
+   background-position: center;
+   border-bottom: 3px solid var(--background);
+  
   }
 
   .header-link {
@@ -67,13 +68,26 @@ line-height: 0.83;
     color: var(--avatar-color);
   }
 
+  .hero {
+    background-image: url(../images/hero.fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 204px;
+    padding-bottom: 155px;
+  }
+
   .hero-text {
+    width: 298px;
     color: var(--background);
 font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 0.83;
+  }
+
+  .desc {
+    width: 376px;
   }
 
 
@@ -87,6 +101,8 @@ font-family: "HeadlandOne";
 font-size: 24px;
 font-weight: 400;
 line-height: 1;
+padding: 25px 75px;
+margin-top: 42px;
   }
 
   .hero-btn::before {
@@ -109,15 +125,17 @@ text-align: center;
 font-family: "Inter";
 font-size: 24px;
 font-weight: 400;
-line-height: 0.82;`
+line-height: 0.82;
   }
 
   .trailer {
 background-image: url(../images/trailer.jpg);
-text-align: center;
-background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+text-align: center;
+padding-top: 330px;
+padding-bottom: 330px;
+
   }
 
   .trailer-btn {
@@ -130,6 +148,7 @@ font-family: "HeadlandOne";
 font-size: 24px;
 font-weight: 400;
 line-height: 0.80;
+padding: 25px 18px;
   }
 
   .read-text {
@@ -150,6 +169,14 @@ font-weight: 400;
 line-height: 0.81;
   }
 
+  .learn {
+    background-image: url(../images/fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+ 
+
   .learn-title {
     color: var(--text-color);
     text-align: justify;
@@ -158,6 +185,29 @@ line-height: 0.81;
     font-weight: 400;
     line-height: 0.80;
   }
+
+  .learn-list {
+    display: flex;
+  
+    flex-wrap: wrap;
+  }
+
+  .learn-item{
+    width: 320px;
+height: 240px;
+background: rgba(255, 255, 255, 0.70);
+margin-right: 36px;
+margin-bottom: 24px;
+text-align: center;
+  }
+
+  /* .learn-item:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .learn-item:nth-child(4) {
+margin-bottom: 0;
+  } */
 
   .learn-desc {
     color: var(--text-color);
