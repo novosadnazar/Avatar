@@ -46,8 +46,8 @@ background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)
    background-repeat: no-repeat;
    background-position: center;
    border-bottom: 3px solid var(--background);
-  
   }
+
 
   .header-link {
     width: 186px;
@@ -62,10 +62,27 @@ font-family: "Inter";
 font-size: 20px;
 font-weight: 300;
 line-height: 0.83;
+display: flex;
+gap: 38px;
+justify-content: center;
   }
 
   .nav-link:hover, .nav-link:focus {
     color: var(--avatar-color);
+  }
+
+  .header-btn {
+    color: var(--accent-color);
+text-align: justify;
+font-family: "HeadlandOne";
+font-size: 20px;
+font-weight: 400;
+line-height: 1.25;
+border-radius: 45px 0px;
+border: 3px solid var(--accent-color);
+background: var(--minor-accent);
+padding: 9px 37px;
+
   }
 
   .hero {
